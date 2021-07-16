@@ -1,0 +1,84 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+/*
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+*/
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.achievement-image {
+  height: 48px;
+  width: 48px;
+}
+
+.spinner-border {
+  height: 3rem;
+  width: 3rem;
+}
+
+@media (max-width: 767px) {
+    .profile-pic-div, .profile-text, .profile-picture, .profile-name, .profile-desc-1, .profile-desc-2 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .profile-pic-div, .profile-text {
+        width: 100%;
+        display: block;
+    }
+    
+    .profile-picture {
+        display: block;
+        width: 138px;
+        height: 138px;
+    }
+
+    .profile-desc-1 {
+        margin-right: auto !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .game-item {
+        width: 100%;
+    }
+
+    .game-image, .game-details, .game-name, .game-achieves {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .game-image {
+        display: block !important;
+    }
+
+    .game-details, .game-name, .game-achieves {
+        width: 100%;
+    }
+}
