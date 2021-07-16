@@ -1,7 +1,7 @@
 
 # Steam Achievement Tracker
 
-Steam Achievement Tracker is a responsive web app built using [ReactJS] (https://reactjs.org/). It works in tandem with the [Steam Achievement Server](https://github.com/dave-bugeja/achieve-server), sending requests to the server endpoint then parsing and displaying the response from the server.
+Steam Achievement Tracker is a responsive web app built using [ReactJS](https://reactjs.org/). It works in tandem with the [Steam Achievement Server](https://github.com/dave-bugeja/achieve-server), sending requests to the server endpoint then parsing and displaying the response from the server.
 
 As this project was primarily intended as a learning experience with React, it's not ready to be used in any sort of commercial capacity. The project was developed with the idea of both front-end and back-end both being hosted on localhost. Only a core subset of UI functionality for mobile and desktop breakpoints was implemented.
 
